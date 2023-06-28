@@ -3,7 +3,7 @@ from tkinter import ttk
 from pytube import YouTube
 
 def download(*args):
-    yt = YouTube(url.get())
+    yt = YouTube(url.get(https://www.youtube.com/watch?v=pqhhowaJIFQ))
     yd = yt.streams.get_audio_only()
     yd.download(directory.get())
 
